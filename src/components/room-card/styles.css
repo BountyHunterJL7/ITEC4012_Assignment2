@@ -1,0 +1,21 @@
+.room-image-card{
+    width:  350pt;
+    height: 200pt;
+    object-fit: cover;
+}
+
+.room-name-card{
+    text-align: left;
+}
+
+.room-card{
+    width:350pt;
+    padding:2% 1%;
+    float:left;
+    background-color: white;
+}
+
+.room-card:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+[
+      {
+          "id": "0",
+          "image": "https:/www.ikea.com/images/a-birch-bjoerksnaes-bed-with-white-and-beige-bedlinen-beside-e68510b7352bb5143ce86b47cfb3f22d.jpg?f=m",
+          "name": "Bedroom"
+      },
+      {
+          "id":"1",
+          "image": "https:/www.ikea.com/images/link-to-living-room-image-of-a-casual-living-room-with-grey--02197c40ec30b8f778d97b2569277a19.jpg?f=m",
+          "name":"Living Room"
+      },
+      {
+          "id":  "2",
+          "image":"https:/www.ikea.com/images/a-large-bright-open-plan-kitchen-with-white-and-turquoise-do-f53fb36fb77e7c09afbecf0d2c628191.jpg?f=m",
+          "name": "Kitchen"
+      },
+      {
+          "id": "3",
+          "image": "https:/www.ikea.com/images/an-industrial-style-studio-at-home-with-high-ceilings-furnit-d6ba3f797a6cbed87478bad1d8dbd652.jpg?f=m",
+          "name": "Home Office"
+      },
+      {
+          "id": "4",
+          "image":  "https:/www.ikea.com/images/a-dining-room-with-golden-brown-leather-chairs-a-black-exten-6c8d91833fa549c6461e4bed50d52d72.jpg?f=m",
+          "name": "Dining"
+
+          
+
+      },
+      {
+          "id":  "5",
+          "image":  "https:/www.ikea.com/images/storage-be799f5d3eeffb68520b402617c3867c.jpg?f=m",
+          "name":  "Storage"
+      },
+      {
+          "id":  "6",
+          "image":  "https:/www.ikea.com/images/a-tuffing-bunk-bed-in-a-childrens-room-with-a-football-and-t-57c6d97b0e97fa11316c8fea272a7f0d.jpg?f=m",
+          "name":  "Baby & kids room" 
+      },
+      {
+          "id":  "7",
+          "image":  "https:/www.ikea.com/images/a-bright-white-bathroom-with-a-nysjon-sink-cabinet-6761b04e487bc78408c4bc15c2a17a03.jpg?f=m",
+          "name":  "Bathroom"
+          
+      },
+      {
+          "id":  "8",
+          "image":  "https:/www.ikea.com/images/a-small-balcony-with-a-wooden-table-and-chairs-artificial-gr-f6ba826dc19b000e2975955fd78e45a4.jpg?f=m",
+          "name":  "Outdoor"
+          
+      },
+      {
+          "id":  "9",
+          "image":  "https:/www.ikea.com/images/a-hallway-where-a-pinnig-coat-rack-and-shoe-bench-stand-agai-2dc4a103bc0ac4158557a90ebc0aadd3.jpg?f=m",
+          "name":  "Hallway"
+          
+      },
+      {
+          "id":  "10",
+          "image":  "https:/www.ikea.com/images/a-dark-grey-laundry-area-with-a-white-wire-storage-rack-and--de314ce732ddc5b59d64b2f4e5a85813.jpg?f=m",
+          "name":  "Laundry"
+         
+      },
+      {
+          "id":  "11",
+          "image":  "https:/www.ikea.com/images/omar-shelving-units-in-different-heights-displaying-packages-3e0c1741a6f2ed3e4af92282c0e99e16.jpg?f=m",
+          "name":  "IKEA for Business"
+        
+      }
+    ]
