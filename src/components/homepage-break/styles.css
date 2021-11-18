@@ -21,6 +21,7 @@
     background-color: rgb(255, 222, 0);
     color:black;
 }
+
 .break-desc{
     width:65%;
 }
@@ -38,3 +39,30 @@
     cursor: pointer;
     background-color: #e4e4e4;
 }
+@media (max-width: 1300px) {
+    .break-title{
+        margin-bottom:10%;
+    }
+    .break-desc{
+        width:90%;
+        margin-bottom:10%;
+    }
+  }
+  @media (max-width: 600px) {
+    .break-title{
+        margin-bottom:13%;
+    }
+    .break-desc{
+        width:90%;
+        margin-bottom:20%;
+    }
+  }
+  @media (max-width: 462px) {
+    .break-title{
+        margin-bottom:50%;
+    }
+    .break-desc{
+        width:90%;
+        margin-bottom:80%;
+    }
+  }

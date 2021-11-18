@@ -73,3 +73,37 @@ hr {
     padding:13pt;
     background-color: rgb(238, 238, 238);
 }
+
+@media (max-width: 1660px) {
+    .search-input{
+        width:55%;
+    }
+    .search-wrapper{
+        width:25%;
+    }
+  }
+  @media (max-width: 1306px) {
+    .main-nav{
+        display:none;
+    }
+  }
+  @media (max-width: 966px) {
+    .search-wrapper{
+        display:none;
+    }
+    .logo-image{
+        width:10%;
+        height:auto;
+        margin:0pt 5pt;
+    }
+    .header-list .nav-icon .nav-option {
+        text-align:right;
+    }
+    .nav-icon .nav-option {
+        padding:2pt;
+        
+    }
+    .nav-icon .menu-bars{
+        text-align:right;
+    }
+  }

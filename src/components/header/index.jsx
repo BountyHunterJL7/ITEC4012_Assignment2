@@ -17,24 +17,24 @@ export const Header = () => {
     return (
         <nav className="header">
             <ul className="header-list">
-                <li className="nav-icon">
+                <li className="nav-icon menu-bars">
                     <NavLink className="nav-option" to="/products"><FontAwesomeIcon icon={faBars} size="lg"></FontAwesomeIcon></NavLink>
                 </li>
                 
 
-                <NavLink to="/"><img className="logo-image" src={logo} alt="Logo" /></NavLink>
+                <NavLink to="/"><img className="logo-image menu-bars" src={logo} alt="Logo" /></NavLink>
 
                 <li>
-                    <NavLink className="nav-option" to="/products">Products</NavLink>
+                    <NavLink className="nav-option main-nav" to="/products">Products</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-option" to="/rooms">Rooms</NavLink>
+                    <NavLink className="nav-option main-nav" to="/rooms">Rooms</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-option" to="/offers">Offers</NavLink>
+                    <NavLink className="nav-option main-nav" to="/offers">Offers</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-option" to="/green-friday">Green Friday</NavLink>
+                    <NavLink className="nav-option main-nav" to="/green-friday">Green Friday</NavLink>
                 </li>
                 
                 <div className="search-wrapper">

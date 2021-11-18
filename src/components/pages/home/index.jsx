@@ -19,7 +19,7 @@ export const HomePage = () => {
                 { 
                     comp1.map(post => {
                         return(
-                            <HomeComp1 key={post.id} image={post.image} name={post.name} desc={post.desc} id={post.id}></HomeComp1>
+                            <HomeComp1 key={post.id} image={post.image} name={post.name} desc={post.desc} color={post.color} id={post.id}></HomeComp1>
                         )}) 
 
                    

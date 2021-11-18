@@ -7,7 +7,7 @@ export const HomepageBreak = (props) => {
         return (
             <div className={props.colorId}>
 
-                <h2 className = "homepage-break-name-card"> {props.name} </h2>
+                <h2 className = "homepage-break-name-card break-title"> {props.name} </h2>
 
                 <div className = "homepage-break-name-card break-desc"> {props.desc} </div>
 

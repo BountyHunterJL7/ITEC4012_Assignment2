@@ -7,7 +7,8 @@ import React, { Component } from "react";
 export const HomeComp1 = (props) => {
 
         return (
-            <div className="home-comp1-card">
+            // "home-comp1-card"
+            <div className={props.color}>
                 <img className="home-comp1-image-card" src={props.image} alt={props.name + "photo"}/>
 
                 <h2 className = "home-comp1-name-card"> {props.name} </h2>

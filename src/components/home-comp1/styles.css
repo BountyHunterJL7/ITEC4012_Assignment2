@@ -1,5 +1,5 @@
 .home-comp1-image-card{
-    width:  360pt;
+    width:  350pt;
     height: 500pt;
     object-fit: cover;
 }
@@ -28,4 +28,47 @@ margin: 1% 10%;
 .home-comp1-card:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.rightNow1{
+    width:350pt;
+    margin:1%;
+    display:inline-block;
+    background-color: #658096;
+    color:black;
+}
+.rightNow2{
+    width:350pt;
+    margin:1%;
+    display:inline-block;
+    background-color: #8A2E34;
+    color:white;
+}
+.rightNow3{
+    width:350pt;
+    margin:1%;
+    display:inline-block;
+    background-color: #E5C992;
+    color:black;
+}
+.rightNow4{
+    width:350pt;
+    margin:1%;
+    display:inline-block;
+    background-color: #935F47;
+    color:white;
+}
+.rightNow5{
+    width:350pt;
+    margin:1%;
+    display:inline-block;
+    background-color: #764348;
+    color:white;
+}
+.rightNow6{
+    width:350pt;
+    margin:1%;
+    display:inline-block;
+    background-color: #A69D80;
+    color:black;
 }
