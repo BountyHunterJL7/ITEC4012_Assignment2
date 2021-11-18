@@ -1,46 +1,27 @@
 import "./styles.css";
-import React from "react";
+import React, { useState } from "react";
 import RoomData from "../../database.json";
 import { PropTypes } from 'react'
-import {RoomCard} from "../../components/room-card/index";
+import {ViewedRoom} from "../../components/viewed-room/index";
 
-export const RecentlyViewed = () => {
-    
+export const RecentlyViewed = (props) => {
+        console.log ("from the recently viewed" ,props.viewedItems)
 
-    var roomArray = [];
+        const [items, setItems] = useState(props.viewedItems);
 
-    var currentclick;
-
-
-    function addToRecent(idValue)  {
-        console.log("PUSHED WA");
-        currentclick = Number(idValue);
-
-        for (var i = roomArray.length; i >= 0; i--) {
-            if (i === 0){
-                roomArray[i] = currentclick;
-            } else {
-                roomArray[i] = roomArray[i-1];
-            }
-        }
-    }   
         return (
-            <div>
+            <div className="recent-view-room-wrapper">
                 <div className="recent-heading">
                     <div className="recent-title">
                         <h1>Your recently viewed products</h1>
                     </div>
                 </div>
                 
-                <div>
+                <div className="viewed-room-card-wrapper">
                     { 
-                        // RoomData.map(post => {
-                        //     return(
-                        //         <RoomCard key={post.id} image={post.image} name={post.name} id={post.id}></RoomCard>
-                        //     )}) 
-                        roomArray.map((room) => {
+                        props.viewedItems.map((room) => {
                             return(
-                                <RoomCard key={room.id} image={room.image} name={room.name} id={room.id} addToRecent={this.addToRecent}></RoomCard>
+                                <ViewedRoom key={room.id} image={room.image} name={room.name} id={room.id}></ViewedRoom>
                             )}) 
                     
                     } 

@@ -1,0 +1,42 @@
+.room-image-viewd{
+    width:  200pt;
+    height: 100pt;
+    object-fit: cover;
+}
+
+.room-name-viewd{
+    text-align: left;
+}
+
+.viewed-room-card-wrapper{
+white-space:nowrap;
+overflow-x: auto;
+overflow-y: hidden;
+margin-bottom:5%;
+}
+
+.room-viewd{
+    width:200pt;
+    padding:2% 1%;
+    display:inline-block;
+    background-color: white;
+}
+
+.room-viewd:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10pt;
+    height:5pt;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 50px;
+}

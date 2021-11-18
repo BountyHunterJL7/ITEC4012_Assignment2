@@ -8,10 +8,14 @@
     text-align: left;
 }
 
+.room-card-wrapper{
+white-space:normal;
+}
+
 .room-card{
     width:350pt;
     padding:2% 1%;
-    float:left;
+    display:inline-block;
     background-color: white;
 }
 

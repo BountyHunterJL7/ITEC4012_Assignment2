@@ -3,29 +3,47 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
 
-export class RoomCard extends Component {
 
-    //const {image, name, id} = props;
-    constructor (props) {
-        super (props);
+export const RoomCard = (props) => {
+
+    const handleRecent = () => {
+        console.log("Clicked room card")
+        props.addToRecent(props.id);
     }
-
-    handleRecent = () => {
-        this.props.addToRecent(this.props.id);
-    }
-
-    render () {
         return (
-            <div className="room-card" onClick={ () => this.handleRecent()}>
-                <img className="room-image-card" src={this.props.image} alt={this.props.name + "photo"}/>
+            <div className="room-card" onClick={handleRecent}>
+                <img className="room-image-card" src={props.image} alt={props.name + "photo"}/>
 
-                <h2 className = "room-name-card"> {this.props.name} </h2>
+                <h2 className = "room-name-card"> {props.name} </h2>
 
                 <div className = "room-name-card"><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon> </div>
             </div>
         );
-    }
 }
+
+// export class RoomCard extends Component {
+
+//     //const {image, name, id} = props;
+//     constructor (props) {
+//         super (props);
+//     }
+
+//     handleRecent = () => {
+//         this.props.addToRecent(this.props.id);
+//     }
+
+//     render () {
+//         return (
+//             <div className="room-card" onClick={ () => this.handleRecent()}>
+//                 <img className="room-image-card" src={this.props.image} alt={this.props.name + "photo"}/>
+
+//                 <h2 className = "room-name-card"> {this.props.name} </h2>
+
+//                 <div className = "room-name-card"><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon> </div>
+//             </div>
+//         );
+//     }
+// }
 
 
 // export const RoomCard = (props) => {
