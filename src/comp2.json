@@ -1,0 +1,37 @@
+[
+    {
+        "id": "0",
+        "image": "https://www.ikea.com/images/water-saving-170ebe8c6342d10daea920ceaefc0994.jpg?f=xxs",
+        "name": "Water saving"
+    },
+    {
+        "id":"1",
+        "image": "https://www.ikea.com/images/energy-saving-1d87e4faf7b3304a323d3cca2e9b3efa.jpg?f=xxs",
+        "name":"Energy saving"
+    },
+    {
+        "id":  "2",
+        "image":"https://www.ikea.com/images/healthier-home-f85e4dda4970b8fa5bf2fc0801a6ad68.jpg?f=xxs",
+        "name": "Healthier home"
+    },
+    {
+        "id": "3",
+        "image": "https://www.ikea.com/images/reducing-waste-412583f1c6ce2b55faa0d261bca3db51.jpg?f=xxs",
+        "name": "Reducing waste"
+    },
+    {
+        "id": "4",
+        "image":  "https://www.ikea.com/images/more-sustainable-furniture-90628916845be44c3adf0df8511cc925.jpg?f=xxs",
+        "name": "Sustainable furniture"
+    },
+    {
+        "id":  "5",
+        "image":  "https://www.ikea.com/images/more-sustainable-materials-713f4910634b8c2d8c66f2ad7a6a6704.jpg?f=xxs",
+        "name":  "Sustainable materials"
+    },
+    {
+        "id":  "6",
+        "image":  "https://www.ikea.com/images/more-sustainable-food-a1599b50a8965f5bf959f95f40e32318.jpg?f=xxs",
+        "name":  "Sustainable food"
+    }
+  ]

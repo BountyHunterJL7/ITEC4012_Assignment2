@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "image": "https://www.ikea.com/images/a-father-and-son-setting-a-rustic-dining-room-table-for-dinn-8f302ec5eee0d35110f8625780376ad2.jpg?f=m",
+        "name": "Winter home inspiration",
+        "desc": "Winter is about spending time entertaining and celebrating in warm, inviting spaces."
+    },
+    {
+        "id":"1",
+        "image": "https://www.ikea.com/images/a-table-full-of-ikea-food-products-c3f6cfb8cadbf0ac056c52b72705da9f.jpg?f=m",
+        "name":"IKEA Food is now available on Doordash",
+        "desc": "We've partnered with DoorDash to have your favourite IKEA meals delivered right to your door."
+    },
+    {
+        "id":  "2",
+        "image":"https://www.ikea.com/images/a-christmas-tree-made-out-of-strala-led-string-light-fastene-4b14595bfc529fcf2a64067ee8bff418.jpg?f=m",
+        "name": "Pining for trees? Us too.",
+        "desc": "This year we won’t have live Christmas trees, but we will have our festive spirit"
+    },
+    {
+        "id": "3",
+        "image": "https://www.ikea.com/images/a-white-symfonisk-picture-frame-with-wifi-speaker-is-mounted-47cae9f40bb31d9e4b98e6c937f023aa.jpg?f=m",
+        "name": "Nice for your ears, easy on your eyes",
+        "desc": "A SYMFONISK picture frame with WiFi speaker mixes art with sound, like a sculpture that sings."
+    },
+    {
+        "id": "4",
+        "image":  "https://www.ikea.com/images/a-kitchen-with-light-natural-wood-cabinets-a-red-tiled-backs-ea029347cdf2210a600b29fb7f4e5bed.jpg?f=m",
+        "name": "15% off* KASKER quartz kitchen countertops",
+        "desc": "November 11 - December 1. KASKER countertops can only be purchased in store."
+    },
+    {
+        "id":  "5",
+        "image":  "https://www.ikea.com/images/a-white-desk-and-gray-chair-in-a-small-gray-room-cf3020eab57e64320333c48f3079d1ae.jpg?f=m",
+        "name":  "Home essentials under $10",
+        "desc": "There is no need to break the bank to get the essentials for your home."
+    }
+  ]

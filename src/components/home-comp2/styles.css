@@ -1,0 +1,35 @@
+.home-comp2-image-card{
+    width:  150pt;
+    height: 200pt;
+    object-fit: cover;
+}
+
+.home-comp2-name-card{
+    text-align: center;
+    height:100pt;
+    white-space: normal;
+    font-size: 10pt;
+    height:auto;
+    padding: 5% 0;
+    color:black;
+
+}
+
+.home-comp-card-wrapper{
+white-space:nowrap;
+overflow-x: auto;
+overflow-y: hidden;
+margin: 2% 10%;
+}
+
+.home-comp2-card{
+    width:150pt;
+    padding:0% 1%;
+    display:inline-block;
+    background-color: white;
+}
+
+.home-comp2-card:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

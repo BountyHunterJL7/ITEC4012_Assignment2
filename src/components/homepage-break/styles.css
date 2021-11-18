@@ -1,0 +1,40 @@
+.homepage-break-name-card{
+    text-align: left;
+    padding-left:5%;
+    height:10pt;
+    white-space: normal;
+}
+
+.blue{
+    width:80%;
+    padding:1% 1%;
+    display:inline-block;
+    text-align: left;
+    background-color: rgb(0, 88, 163);
+    color:white;
+}
+.yellow{
+    width:80%;
+    padding:1% 1%;
+    display:inline-block;
+    text-align: left;
+    background-color: rgb(255, 222, 0);
+    color:black;
+}
+.break-desc{
+    width:65%;
+}
+
+.homepage-break-button{
+    text-align: center;
+    margin:5%;
+    border-radius: 50px;
+    border-style: none;
+    padding:1%;
+    font-weight: 700;
+}
+
+.homepage-break-button:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
